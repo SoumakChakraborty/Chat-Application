@@ -5,7 +5,7 @@ $('#senddiv a').on('click',function()
     var actual=user.textContent.split("-");
     socket.emit('chat message',actual[1]+":"+$('#chat').val());
     var http=new XMLHttpRequest();
-    http.open('GET','http://192.168.0.101:3000/check/'+$('#chat').val(),true);
+    http.open('GET','http://process.env.IP/check/'+$('#chat').val(),true);
     http.onreadystatechange=function()
     {
          if(http.readyState==4&&http.status==200)

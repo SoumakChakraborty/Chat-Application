@@ -1,7 +1,7 @@
 setInterval(function()
 {
      var http=new XMLHttpRequest();
-     http.open('GET','http://192.168.0.101:3000/loggedusers',true);
+     http.open('GET','http://process.env.IP/loggedusers',true);
      http.onreadystatechange=function()
      {
           if(http.readyState==4&&http.status==200)
