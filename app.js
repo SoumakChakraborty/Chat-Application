@@ -213,7 +213,7 @@ app.put("/reset/:user",function(req,res)
         res.redirect("/chat");
     });
 });
-http.listen(3000,'192.168.0.101',function()
+http.listen(process.env.PORT,process.env.IP,function()
 {
     console.log('Server started');
 });
