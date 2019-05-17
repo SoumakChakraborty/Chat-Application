@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>Change password</title>
+        <link rel="stylesheet" href="/style.css">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    </head>
+    <body>
+       <h1>Change password</h1> 
+        <div id="resetdiv">
+           <form action="/changepass?_method=PUT" method="POST" onsubmit="return check()">
+              <input type="password" name="password" id="password" placeholder="New password"><br>
+              <input type="password" id="retype-password" placeholder="Retype new password">
+              <input type="submit" value="Change Password" id="submit">
+          </form>
+        </div>
+    </body>
+</html>

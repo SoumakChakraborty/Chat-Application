@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>Reset password</title>
+        <link rel="stylesheet" href="/style.css">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    </head>
+    <body>
+       <h1>Reset password</h1> 
+        <div id="resetdiv">
+           <form action="/resetpass/<%=user%>?_method=PUT" method="POST" onsubmit="return check()">
+              <input type="password" name="password" id="password" placeholder="New password"><br>
+              <input type="password" id="retype-password" placeholder="Retype new password">
+              <input type="submit" value="Reset Password" id="submit">
+          </form>
+        </div>
+    </body>
+</html>

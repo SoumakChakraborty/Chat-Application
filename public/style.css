@@ -1,0 +1,988 @@
+#landing
+{
+    background:url("https://images.unsplash.com/photo-1556761175-b413da4baf72?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:0;
+}
+#navbar
+{
+    background:gainsboro;
+    border:1px black solid;
+    border-radius: 5px;
+    box-shadow: 0 0 3px black;
+    height:8%;
+    opacity:.9;
+}
+#titlediv a
+{
+    text-decoration: none;
+    font-family: Dancing Script;
+    color:gray;
+    font-size:20px;
+    font-weight: 600;
+}
+#titlediv
+{
+    width:120px;
+    margin-top:10px;
+    float: left;
+}
+#signindiv a
+{
+    text-decoration: none;
+    color:black;
+}
+#signindiv
+{
+    padding:5px;
+    width:50px;
+    border:1px green solid;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-top:10px;
+}
+.formdiv
+{
+    width:45%;
+    height:60%;
+    background:gainsboro;
+    border:1px gainsboro solid;
+    border-radius: 5px;
+    box-shadow: 0 0 3px gainsboro;
+    transition:.2s linear;
+    margin:auto;
+    margin-top:10%;
+    opacity:.9;
+    display: none;
+}
+#resetdiv
+{
+    width:45%;
+    height:60%;
+    background:gainsboro;
+    border:1px gainsboro solid;
+    border-radius: 5px;
+    box-shadow: 0 0 3px gainsboro;
+    transition:.2s linear;
+    margin:auto;
+    margin-top:10%;
+    
+}
+.formdiv-signup
+{
+    width:45%;
+    height:80%;
+    background:gainsboro;
+    border:1px gainsboro solid;
+    border-radius: 5px;
+    box-shadow: 0 0 3px gainsboro;
+    transition:.2s linear;
+    margin:auto;
+    margin-top:10%;
+    opacity:.9;
+}
+.error
+{
+    border:1px red solid;
+}
+#showmsg
+{
+    background:rgb(8, 57, 77);
+    color:white;
+    border:1px rgb(8, 57, 77) solid;
+    border-radius: 5px;
+    width:40%;
+    padding:15px;
+    margin:auto;
+    text-align: center;
+    margin-top: 2%;
+}
+#userid
+{
+    opacity: 1;
+    margin-top:5%;
+    margin-left:2%;
+    width:95%;
+    padding:12px;
+    border:1px gray solid;
+    border-radius: 5px;
+    transition: .2s linear;
+}
+#userid:focus
+{
+    outline: none;
+    padding:15px;
+    border:1px black solid;
+}
+#fname
+{
+    opacity: 1;
+    margin-top:5%;
+    margin-left:2%;
+    width:95%;
+    padding:12px;
+    border:1px gray solid;
+    border-radius: 5px;
+    transition: .2s linear;
+}
+#fname:focus
+{
+    outline: none;
+    padding:15px;
+    border:1px black solid;
+}
+#lname
+{
+    opacity: 1;
+    margin-top:5%;
+    margin-left:2%;
+    width:95%;
+    padding:12px;
+    border:1px gray solid;
+    border-radius: 5px;
+    transition: .2s linear;
+}
+#lname:focus
+{
+    outline: none;
+    padding:15px;
+    border:1px black solid;
+}
+#password
+{
+    opacity: 1;
+    margin-top:5%;
+    margin-left:2%;
+    width:95%;
+    padding:12px;
+    border:1px gray solid;
+    border-radius: 5px;
+    transition: .2s linear;
+}
+#password:focus
+{
+    outline: none;
+    padding:15px;
+    border:1px black solid;
+}
+#retype-password
+{
+    opacity: 1;
+    margin-top:5%;
+    margin-left:2%;
+    width:95%;
+    padding:12px;
+    border:1px gray solid;
+    border-radius: 5px;
+    transition: .2s linear;
+}
+#retype-password:focus
+{
+    outline: none;
+    padding:15px;
+    border:1px black solid;
+}
+#submit
+{
+    opacity: 1;
+    margin-top:5%;
+    margin-left:2%;
+    width:95%;
+    background: none;
+    padding:12px;
+    border:1px green solid;
+    border-radius: 5px;
+}
+#user
+{
+    opacity: 1;
+    margin: auto;
+    margin-top:15px;
+    width:50%;   
+}
+#user #forgot
+{
+    width:135px;
+    float: left;
+}
+#user #forgot a
+{
+    text-decoration: none;
+    color:rgb(10, 53, 70);
+    font-family: Jura;
+}
+#user #signup a
+{
+    text-decoration: none;
+    color:rgb(10, 53, 70);
+    font-family: Jura;
+}
+#user #signup a:hover
+{
+    text-decoration: underline;
+}
+#user #forgot a:hover
+{
+    text-decoration: underline;
+}  
+#user #signup
+{
+    width:130px;
+    margin-left: auto;
+}
+#close
+{
+    opacity: 1;
+    margin-left: 95%;
+    margin-top:3%;
+}
+ul
+{
+    list-style: none;
+}
+#userlist
+{
+    padding: 0;
+    width:3%;
+    margin-left:90%;
+}
+#userlist li img
+{
+    width:60%;
+    border-radius: 20px;
+    background: white;
+}
+#userlist li ul
+{
+    border-radius:5px;
+    padding:0;
+    display:none;
+    box-shadow: 0 0 3px gray;
+}
+#userlist li ul li
+{
+    background: gainsboro;
+    padding:15px;
+    opacity: .9;
+}
+#first
+{
+    border-top:1px gray solid;
+    border-left:1px gray solid;;
+    border-right: 1px gray solid;
+    border-top-left-radius: 5px;
+}
+#last
+{
+    border-bottom:1px gray solid;
+    border-left:1px gray solid;;
+    border-right: 1px gray solid;
+    border-bottom-right-radius: 5px;
+}
+#first a
+{
+    text-decoration: none;
+    color:rgb(9, 54, 71);
+    font-family: Jura;
+}
+#last a
+{
+    text-decoration: none;
+    color:rgb(9, 54, 71);
+    font-family: Jura;
+}
+#userlist li:hover ul
+{
+    display: inline-block;
+}
+#chatwindow
+{
+    width:60%;
+    height:60%;
+    border:1px gray solid;
+    border-radius:5px;
+    background:gainsboro;
+    margin-left:20%;
+    margin-top:2%;
+    opacity: .9;
+    box-shadow: 0 0 3px gray;
+    overflow: auto;
+}
+#messagewindow
+{
+    width:60%;
+    margin-left:20%;
+    margin-top:15px;
+}
+#chat
+{
+    width:80%;
+    padding:12px;
+    border:1px gray solid;
+    border-radius: 20px;
+    transition: .2s linear;
+    float: left;
+}
+#chat:focus
+{
+    outline: none;
+    border:1px black solid;
+    padding:15px;
+}
+#senddiv
+{
+    border:1px rgb(19, 97, 128) solid;
+    width:15%;
+    padding:10px;
+    border-radius:8px;
+    background: rgb(19, 97, 128);
+    text-align: center;
+    margin-left: auto;
+}
+#senddiv a
+{
+    text-decoration: none;
+    color:gainsboro;
+    font-family: Dosis;
+}
+#sendlist
+{
+    margin-top:2%;
+    list-style: none;
+    background:green;
+    border:1px green solid;
+    border-radius: 20px;
+    padding:10px;
+    width:70%;
+    text-align: center;
+    color:white;
+}
+#recvlist
+{
+    margin-top:2%;
+    list-style: none;
+    background:skyblue;
+    border:1px skyblue solid;
+    border-radius: 20px;
+    padding:10px;
+    width:70%;
+    text-align: center;
+    color:black;
+}
+#userinfo
+{
+    width:58%;
+    background:gray;
+    border:1px gray solid;
+    padding:10px;
+    border-radius: 5px;
+    margin:auto;
+    margin-top:3%;
+    text-align: center;
+}
+#usertitle
+{
+    font-family: Monteserrat;
+}
+#userdetail
+{
+    color:white;
+    font-family: Quicksand;
+}
+.logged_icon
+{
+    width:12%;
+    border-radius: 20px;
+}
+#logdiv
+{
+    border:1px black solid;
+    border-radius: 5px;
+    width:15%;
+    float: left;
+}
+#logdiv ul
+{
+    padding: 0;
+}
+#logdiv ul li
+{
+    font-family: Quicksand;
+}
+#logdivtitle
+{
+    font-size: 18px;
+    font-family: Monteserrat;
+}
+#loggeduser
+{
+    list-style: none;
+}
+@media screen and (max-width:870px)
+{
+    .formdiv
+   {
+    width:60%;
+    height:60%;
+    background:gainsboro;
+    border:1px gainsboro solid;
+    border-radius: 5px;
+    box-shadow: 0 0 3px gainsboro;
+    transition:.2s linear;
+    margin:auto;
+    margin-top:10%;
+    opacity:.9;
+    display: none;
+}
+#resetdiv
+{
+    width:45%;
+    height:60%;
+    background:gainsboro;
+    border:1px gainsboro solid;
+    border-radius: 5px;
+    box-shadow: 0 0 3px gainsboro;
+    transition:.2s linear;
+    margin:auto;
+    margin-top:10%;
+    
+}
+.formdiv-signup
+{
+    width:45%;
+    height:80%;
+    background:gainsboro;
+    border:1px gainsboro solid;
+    border-radius: 5px;
+    box-shadow: 0 0 3px gainsboro;
+    transition:.2s linear;
+    margin:auto;
+    margin-top:10%;
+    opacity:.9;
+}
+}
+@media screen and (max-width:720px)
+{
+    #userlist li ul li
+   {
+    background: gainsboro;
+    padding:12px;
+    opacity: .9;
+   }
+    .formdiv
+    {
+     width:85%;
+     height:60%;
+     background:gainsboro;
+     border:1px gainsboro solid;
+     border-radius: 5px;
+     box-shadow: 0 0 3px gainsboro;
+     transition:.2s linear;
+     margin:auto;
+     margin-top:15%;
+     opacity:.9;
+     display: none;
+ }
+ .formdiv-signup
+{
+    width:85%;
+    height:80%;
+    background:gainsboro;
+    border:1px gainsboro solid;
+    border-radius: 5px;
+    box-shadow: 0 0 3px gainsboro;
+    transition:.2s linear;
+    margin:auto;
+    margin-top:10%;
+    opacity:.9;
+}
+#resetdiv
+{
+    width:85%;
+    height:60%;
+    background:gainsboro;
+    border:1px gainsboro solid;
+    border-radius: 5px;
+    box-shadow: 0 0 3px gainsboro;
+    transition:.2s linear;
+    margin:auto;
+    margin-top:10%;
+    
+}
+#chatwindow
+{
+    width:60%;
+    height:60%;
+    border:1px gray solid;
+    border-radius:5px;
+    background:gainsboro;
+    margin-left:20%;
+    margin-top:2%;
+    opacity: .9;
+    box-shadow: 0 0 3px gray;
+    overflow: auto;
+}
+#messagewindow
+{
+    width:60%;
+    margin-left:20%;
+    margin-top:15px;
+}
+#chat
+{
+    width:80%;
+    padding:12px;
+    border:1px gray solid;
+    border-radius: 20px;
+    transition: .2s linear;
+    float: left;
+}
+#senddiv
+{
+    border:1px rgb(19, 97, 128) solid;
+    width:15%;
+    padding:10px;
+    border-radius:8px;
+    background: rgb(19, 97, 128);
+    text-align: center;
+    margin-left: auto;
+}
+#sendlist
+{
+    margin-top:2%;
+    list-style: none;
+    background:green;
+    border:1px green solid;
+    border-radius: 20px;
+    padding:10px;
+    width:70%;
+    text-align: center;
+    color:white;
+}
+#recvlist
+{
+    margin-top:2%;
+    list-style: none;
+    background:skyblue;
+    border:1px skyblue solid;
+    border-radius: 20px;
+    padding:10px;
+    width:70%;
+    text-align: center;
+    color:black;
+}
+#userinfo
+{
+    width:57%;
+    background:gray;
+    border:1px gray solid;
+    padding:10px;
+    border-radius: 5px;
+    margin-left:20%;
+    margin-top:3%;
+    text-align: center;
+}
+.logged_icon
+{
+    width:15%;
+    border-radius: 20px;
+}
+#logdiv
+{
+    border:1px black solid;
+    border-radius: 5px;
+    width:18%;
+    float: left;
+}
+#userlist
+{
+    padding: 0;
+    width:6%;
+    margin-left:85%;
+}
+#userlist li img
+{
+    width:60%;
+    border-radius: 20px;
+    background: white;
+}
+#signindiv
+{
+    padding:5px;
+    width:70px;
+    border:1px green solid;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-top:10px;
+    text-align: center;
+}
+#navbar
+{
+    height:8%;
+}
+}
+@media screen and (max-width:480px)
+{
+    .formdiv
+    {
+     width:98%;
+     height:60%;
+     background:gainsboro;
+     border:1px gainsboro solid;
+     border-radius: 5px;
+     box-shadow: 0 0 3px gainsboro;
+     transition:.2s linear;
+     margin:auto;
+     margin-top:18%;
+     opacity:.9;
+     display: none;
+ }
+ #resetdiv
+{
+    width:98%;
+    height:60%;
+    background:gainsboro;
+    border:1px gainsboro solid;
+    border-radius: 5px;
+    box-shadow: 0 0 3px gainsboro;
+    transition:.2s linear;
+    margin:auto;
+    margin-top:10%;
+    
+}
+ .formdiv-signup
+{
+    width:98%;
+    height:80%;
+    background:gainsboro;
+    border:1px gainsboro solid;
+    border-radius: 5px;
+    box-shadow: 0 0 3px gainsboro;
+    transition:.2s linear;
+    margin:auto;
+    margin-top:10%;
+    opacity:.9;
+}
+ #user
+{
+    opacity: 1;
+    margin: auto;
+    margin-top:15px;
+    width:80%;   
+}
+#user #forgot
+{
+    width:150px;
+    float: none;
+}
+#user #signup
+{
+    width:150px;
+    margin-left:10%;
+}
+#chatwindow
+{
+    width:60%;
+    height:60%;
+    border:1px gray solid;
+    border-radius:5px;
+    background:gainsboro;
+    margin-left:20%;
+    margin-top:2%;
+    opacity: .9;
+    box-shadow: 0 0 3px gray;
+    overflow: auto;
+}
+#messagewindow
+{
+    width:60%;
+    margin-left:20%;
+    margin-top:15px;
+}
+#chat
+{
+    width:80%;
+    padding:12px;
+    border:1px gray solid;
+    border-radius: 20px;
+    transition: .2s linear;
+    float: left;
+}
+#senddiv
+{
+    border:1px rgb(19, 97, 128) solid;
+    width:12%;
+    padding:10px;
+    border-radius:8px;
+    background: rgb(19, 97, 128);
+    text-align: center;
+    margin-left: auto;
+}
+#sendlist
+{
+    margin-top:2%;
+    list-style: none;
+    background:green;
+    border:1px green solid;
+    border-radius: 20px;
+    padding:10px;
+    width:70%;
+    text-align: center;
+    color:white;
+}
+#recvlist
+{
+    margin-top:2%;
+    list-style: none;
+    background:skyblue;
+    border:1px skyblue solid;
+    border-radius: 20px;
+    padding:10px;
+    width:70%;
+    text-align: center;
+    color:black;
+}
+#userinfo
+{
+    width:55%;
+    background:gray;
+    border:1px gray solid;
+    padding:10px;
+    border-radius: 5px;
+    margin-left:20%;
+    margin-top:8%;
+    text-align: center;
+}
+.logged_icon
+{
+    width:15%;
+    border-radius: 20px;
+}
+#logdiv
+{
+    border:1px black solid;
+    border-radius: 5px;
+    width:20%;
+    float: left;
+}
+#userlist
+{
+    padding: 0;
+    width:8%;
+    margin-left:80%;
+}
+#userlist li img
+{
+    width:80%;
+    border-radius: 20px;
+    background: white;
+}
+  #userlist li ul li
+   {
+    background: gainsboro;
+    padding:8px;
+    opacity: .9;
+   }
+}
+@media screen and (max-width:360px)
+{
+    #chatwindow
+{
+    width:95%;
+    height:60%;
+    border:1px gray solid;
+    border-radius:5px;
+    background:gainsboro;
+    margin-left:2%;
+    margin-top:25%;
+    opacity: .9;
+    box-shadow: 0 0 3px gray;
+    overflow: auto;
+}
+#messagewindow
+{
+    width:98%;
+    margin-left:2%;
+    margin-top:15px;
+}
+#chat
+{
+    width:80%;
+    padding:12px;
+    border:1px gray solid;
+    border-radius: 20px;
+    transition: .2s linear;
+}
+#senddiv
+{
+    border:1px rgb(19, 97, 128) solid;
+    width:12%;
+    padding:10px;
+    padding-right: 12px;
+    border-radius:8px;
+    background: rgb(19, 97, 128);
+    text-align:center;
+    margin-left: auto;
+}
+#sendlist
+{
+    margin-top:2%;
+    list-style: none;
+    background:green;
+    border:1px green solid;
+    border-radius: 20px;
+    padding:10px;
+    width:70%;
+    text-align: center;
+    color:white;
+}
+#recvlist
+{
+    margin-top:2%;
+    list-style: none;
+    background:skyblue;
+    border:1px skyblue solid;
+    border-radius: 20px;
+    padding:10px;
+    width:70%;
+    text-align: center;
+    color:black;
+}
+#userinfo
+{
+    width:92%;
+    background:gray;
+    border:1px gray solid;
+    padding:10px;
+    border-radius: 5px;
+    margin-left:2%;
+    margin-top:12%;
+    text-align: center;
+}
+.logged_icon
+{
+    width:15%;
+    border-radius: 20px;
+}
+#logdiv
+{
+    border:1px black solid;
+    border-radius: 5px;
+    width:50%;
+    margin-top:3%;
+}
+#userlist
+{
+    padding: 0;
+    width:8%;
+    margin-left:70%;
+}
+}
+@media screen and (max-width:204px)
+{
+    #titlediv
+   {
+    width:120px;
+    margin:auto;
+    margin-top:10px;
+    float: none;
+  }
+#signindiv
+{
+    padding:5px;
+    width:50px;
+    border:1px green solid;
+    border-radius: 5px;
+    margin: auto;
+    margin-top:10px;
+}
+#navbar
+{
+    height:15%;
+}
+}
+@media screen and (max-width:190px)
+{
+    #senddiv
+{
+    border:1px rgb(19, 97, 128) solid;
+    width:10%;
+    padding:10px;
+    padding-right: 12px;
+    border-radius:8px;
+    background: rgb(19, 97, 128);
+    text-align:center;
+    margin-left: auto;
+}
+    #chatwindow
+    {
+        width:120%;
+        height:60%;
+        border:1px gray solid;
+        border-radius:5px;
+        background:gainsboro;
+        margin-left:0;
+        margin-top:25%;
+        opacity: .9;
+        box-shadow: 0 0 3px gray;
+        overflow: auto;
+    }
+    #messagewindow
+    {
+        width:120%;
+        margin-left:0;
+        margin-top:15px;
+    }
+    #chat
+    {
+        width:80%;
+        padding:12px;
+        border:1px gray solid;
+        border-radius: 20px;
+        transition: .2s linear;
+    }
+    #logdiv
+    {
+        border:1px black solid;
+        border-radius: 5px;
+        width:92%;
+        margin-top:5%;
+    }
+    
+    #userlist
+   {
+    padding: 0;
+    width:15%;
+    margin:auto;
+}
+    .formdiv-signup
+    {
+        width:98%;
+        height:80%;
+        background:gainsboro;
+        border:1px gainsboro solid;
+        border-radius: 5px;
+        box-shadow: 0 0 3px gainsboro;
+        transition:.2s linear;
+        margin:auto;
+        margin-top:10%;
+        opacity:.9;
+    }
+    #close
+    {
+       margin-left:85%;
+    }
+#userinfo
+{
+    width:90%;
+    background:gray;
+    border:1px gray solid;
+    padding:10px;
+    border-radius: 5px;
+    margin-left:2%;
+    margin-top:12%;
+    text-align: center;
+}
+
+}

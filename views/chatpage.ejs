@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Chat page</title>
+        <link rel="stylesheet" href="/style.css">
+        <script src="../jquery-3.4.1.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Jura" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    </head>
+    <body id="landing">
+        <nav id="navbar">
+            <div id="titlediv"> 
+            <a href="#">Chat Application</a>
+            </div>
+            <ul id="userlist">
+               <li><a href="#"><img src="/user.png"></a>
+                <ul>
+                    <li id="first"><a href="/changepass">Change Password</a></li>
+                    <li id="last"><a href="/signout">Sign Out</a></li>
+                </ul>
+               </li> 
+            </ul> 
+         </nav>
+         <div id="userinfo"><span id="usertitle">User</span> - <span id="userdetail"><%=user%></span></div>
+      <div id="logdiv"></div> 
+         <div id="chatwindow"></div>
+        <div id="messagewindow"> 
+         <input type="text" id="chat" placeholder="Enter message">
+         <div id="senddiv">
+           <a href="#">Send</a>  
+         </div>
+        </div>
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="/chat.js"></script>
+        <script src="/logged.js"></script>
+    </body>
+</html>
