@@ -1,7 +1,7 @@
 setInterval(function()
 {
      var http=new XMLHttpRequest();
-     http.open('GET','http://process.env.IP/loggedusers',true);
+     http.open('GET','https://glacial-beyond-53332.herokuapp.com/loggedusers',true);
      http.onreadystatechange=function()
      {
           if(http.readyState==4&&http.status==200)

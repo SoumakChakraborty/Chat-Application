@@ -5,7 +5,7 @@ $('#senddiv a').on('click',function()
     var actual=user.textContent.split("-");
     socket.emit('chat message',actual[1]+":"+$('#chat').val());
     var http=new XMLHttpRequest();
-    http.open('GET','http://process.env.IP/check/'+$('#chat').val(),true);
+    http.open('GET','https://glacial-beyond-53332.herokuapp.com/check/'+$('#chat').val(),true);
     http.onreadystatechange=function()
     {
          if(http.readyState==4&&http.status==200)
